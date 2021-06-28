@@ -34,4 +34,4 @@ PyTorch Version >= *0.4.0*
 torchvision >= *0.2.1*
 
 # Obtained Accuracy
-Average precision obtained = 99 %
+**99 %**
