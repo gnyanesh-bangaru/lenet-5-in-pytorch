@@ -4,9 +4,12 @@ Even though this is a paper from 1998, it provides basic fundamentals of a neura
 
 This is a simple implementation of the MNIST dataset on LeNet-5 Architecture using PyTorch. (Handwritten Digits)
 
-
 *NOTE: This code was explicitly coded by Object Oriented Approach including one class for each of the files.*
 
+
+# Task 
+
+To predict the class labels of the dataset (here, Handwritten Digits Images) on new data with respect to classes accurately.
 # Requirements
 Python >= *3.0*
 
