@@ -8,3 +8,4 @@ import Train_Test as t
 
 training = t.TrainTest()
 print(training.train_test())
+training.visualize()
