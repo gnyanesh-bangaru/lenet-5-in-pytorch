@@ -26,6 +26,11 @@ Fully connected to 84 neurons
 
 Fully connected to 10 outputs
 
+# Usage
+$git clone https://github.com/GnyaneshB/LeNet-5-Implementation-through-PyTorch.git
+
+$cd LeNet-5-Implementation-through-PyTorch
+
 # Requirements
 Python >= *3.0*
 
