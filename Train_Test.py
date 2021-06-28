@@ -43,9 +43,8 @@ class TrainTest:
 
     classes = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
+    
     def train_test(self):
-        
-     
         self.criterion = nn.CrossEntropyLoss()
         self.optimizer = optim.SGD(self.model.parameters(), lr = 1e-1, momentum=0.9)
         self.epochs = 30
@@ -93,6 +92,7 @@ class TrainTest:
                 print('Accuracy for class {} is : {:.1f}'.format(classname,accuracy))     
         
         return 'Accuracy of the network on the 10000 test images: %d %%' % (100.0 * correct / total)
+    
     
     def visualize(self):    
         self.testloader = DataLoader(self.test_data, batch_size=4, shuffle=True)
