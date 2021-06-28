@@ -79,4 +79,20 @@ class TrainTest:
                 correct += (predicted == labels).sum().item()
         return 'Accuracy of the network on the 10000 test images: %d %%' % (100.0 * correct / total)
 
+    def visualize(self):
+        self.testloader = DataLoader(self.test_data, batch_size=4, shuffle=True)
+        def imshow(img):
+            img = img / 2 + 0.5 #unnomalize
+            npimg = img.numpy()
+            print(npimg.shape)
+            plt.imshow(np.transpose(npimg, (1, 2, 0)))
+            plt.show()
     
+        dataiter = iter(self.testloader)
+        images, labels = dataiter.next()
+        #print images
+        imshow(torchvision.utils.make_grid(images))
+        print('Ground Truth Label :',' '.join('%5s' % self.classes[labels[j]] for j in range(4)))
+        outputs = self.model(images.to(self.device))
+        _, predicted = torch.max(outputs,1) # axis or dim =1 representing column i.e classes
+        print('Predicted Label    :', ' '.join('%5s' % self.classes[predicted[j]] for j in range(4)))  
