@@ -34,7 +34,7 @@ class TrainTest:
                             download=True,
                             transform=self.transform)
         self.trainloader = DataLoader(self.train_data, batch_size=256, shuffle=True)
-        self.testloader = DataLoader(self.test_data, batch_size=1024, shuffle=True)
+        self.testloader = DataLoader(self.test_data, batch_size=256, shuffle=True)
 
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
