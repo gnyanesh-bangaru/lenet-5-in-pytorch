@@ -4,18 +4,15 @@ Created on Sun Jun 27 17:09:08 2021
 
 @author: cgnya
 """
+#--------generic modules--------#
 import torch
 from torch import nn
-import torch.optim as optim
-from torch.optim import lr_scheduler
-from torch.utils.data import DataLoader
-import numpy as np
 import torchvision
+import torch.optim as optim
+from torch.utils.data import DataLoader
 from torchvision import datasets, models, transforms
-import matplotlib.pyplot as plt
-# import time
-# import os
-# import copy
+
+#--------user-defined modules--------#
 from Model import LeNet
 
 class TrainTest:
@@ -43,6 +40,7 @@ class TrainTest:
 
     classes = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
 
+    
     def train_test(self):
         
         model = LeNet().to(self.device)
