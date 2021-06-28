@@ -20,15 +20,17 @@ torchvision >= *0.2.1*
 # Architecture
 Number of Image Channels = 1
 
+Activation = ReLU
+
 32×32 Input Image 
 
 Six 28×28 feature maps convolutional layer (5×5 size) 
 
-Average Pooling layers (2×2 size) 
+Max Pooling layers (2×2 size) 
 
 Sixteen 10×10 feature maps convolutional layer (5×5 size) 
 
-Average Pooling layers (2×2 size) 
+Max Pooling layers (2×2 size) 
 
 Flattened to 16x5x5 which is
 
@@ -45,3 +47,4 @@ Fully connected to 10 outputs
 
 # Obtained Accuracy
 **~99 %**
+
