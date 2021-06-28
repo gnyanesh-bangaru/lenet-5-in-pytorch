@@ -7,6 +7,13 @@ This is a simple implementation of the MNIST dataset on LeNet-5 Architecture usi
 
 *NOTE: This code was explicitly coded by Object Oriented Approach including one class for each of the files.*
 
+# Requirements
+Python >= *3.0*
+
+PyTorch Version >= *0.4.0*
+
+torchvision >= *0.2.1*
+
 # Architecture
 32×32 Input Image 
 
@@ -26,12 +33,10 @@ Fully connected to 84 neurons
 
 Fully connected to 10 outputs
 
-# Requirements
-Python >= *3.0*
+# Obtained Output
 
-PyTorch Version >= *0.4.0*
 
-torchvision >= *0.2.1*
+
 
 # Obtained Accuracy
 **~99 %**
