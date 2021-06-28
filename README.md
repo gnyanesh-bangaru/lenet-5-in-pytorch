@@ -34,9 +34,9 @@ Fully connected to 84 neurons
 Fully connected to 10 outputs
 
 # Obtained Output
+![Figure 2021-06-29 001134](https://user-images.githubusercontent.com/67636257/123688088-42e1dd00-d86f-11eb-8d91-da060c5eb880.png)
 
-
-
+![Screenshot (306)](https://user-images.githubusercontent.com/67636257/123688567-cac7e700-d86f-11eb-94fe-f588246cd7d2.png)
 
 # Obtained Accuracy
 **~99 %**
