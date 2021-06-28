@@ -15,6 +15,8 @@ PyTorch Version >= *0.4.0*
 torchvision >= *0.2.1*
 
 # Architecture
+Number of Image Channels = 1
+
 32×32 Input Image 
 
 Six 28×28 feature maps convolutional layer (5×5 size) 
