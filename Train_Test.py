@@ -80,3 +80,5 @@ class TrainTest:
                 total += labels.size(0)
                 correct += (predicted == labels).sum().item()
         return 'Accuracy of the network on the 10000 test images: %d %%' % (100.0 * correct / total)
+
+    
