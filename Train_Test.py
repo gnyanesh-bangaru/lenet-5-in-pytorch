@@ -21,24 +21,21 @@ from Model import LeNet
 class TrainTest:
     
     def __init__(self):
-        self.transform = transforms.Compose(
-                            [transforms.ToTensor(),
-                              transforms.Normalize(0.5, 0.5),
-                              transforms.Resize([32,32])])
-    
+        
+        self.transform = transforms.Compose([
+                            transforms.ToTensor(),
+                            transforms.Normalize(0.5, 0.5),
+                            transforms.Resize([32,32])])
         self.train_data = torchvision.datasets.MNIST(
                             root='/data',
                             train=True,
                             download=True,
                             transform=self.transform)
-    
         self.test_data = torchvision.datasets.MNIST(
                             root='/data',
                             train=False,
                             download=True,
                             transform=self.transform)
-    
-    
         self.trainloader = DataLoader(self.train_data, batch_size=256, shuffle=True)
         self.testloader = DataLoader(self.test_data, batch_size=1024, shuffle=True)
 
