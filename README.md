@@ -1,5 +1,5 @@
 # LeNet-5-Implementation-through-PyTorch
-This is an architecture which was proposed in 1998 Proceedings of IEEE journal with about 37505	citations as of today.
+This is an architecture which was proposed in 1998 [Proceedings of IEEE journal](https://ieeexplore.ieee.org/abstract/document/726791/) with about 37505	citations as of today.
 Even though this is a paper from 1998, it provides basic fundamentals of a neural network. By the development of network architecture and error rate reduction, we can grasp the importance of Deep Learning components to be added on to the network.
 
 This is a simple implementation of the MNIST dataset on LeNet-5 Architecture using PyTorch. (Handwritten Digits)
