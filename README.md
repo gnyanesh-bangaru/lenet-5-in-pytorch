@@ -14,6 +14,7 @@ To predict the class labels of the dataset (here, Handwritten Digits Images) on 
 # Datasets
 
 MNIST (Handwritten Digits)
+
 The provided code will automatically extract the dataset from the module 'torchvision.datasets'
 
 # Requirements
