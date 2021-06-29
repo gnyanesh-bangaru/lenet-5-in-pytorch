@@ -12,7 +12,9 @@ This is a simple implementation of the MNIST dataset on LeNet-5 Architecture usi
 To predict the class labels of the dataset (here, Handwritten Digits Images) on new data with respect to classes accurately.
 
 # Datasets
-The provided code will automatically extract the datasets from the module 'torchvision.datasets'
+
+MNIST (Handwritten Digits)
+The provided code will automatically extract the dataset from the module 'torchvision.datasets'
 
 # Requirements
 Python >= *3.0*
