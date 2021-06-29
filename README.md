@@ -2,9 +2,7 @@
 This is an architecture which was proposed in 1998 [Proceedings of IEEE journal - Gradient-based learning applied to document recognition](https://ieeexplore.ieee.org/abstract/document/726791/) with about 37505	citations as of today.
 Even though this is a paper from 1998, it provides basic fundamentals of a neural network. By the development of network architecture and error rate reduction, we can grasp the importance of Deep Learning components to be added on to the network.
 
-This is a simple implementation of the MNIST dataset on LeNet-5 Architecture using PyTorch. (Handwritten Digits)
-
-
+This is a simple implementation of the MNIST dataset on LeNet-5 Architecture using PyTorch(Handwritten Digits).
 
 # Task 
 
@@ -14,7 +12,7 @@ To predict the class labels of the dataset (here, Handwritten Digits Images) on 
 
 MNIST (Handwritten Digits)
 
-The provided code will automatically extract the dataset from the module 'torchvision.datasets'
+The provided code will automatically extract the dataset from the module 'torchvision.datasets'.
 
 # Requirements
 Python >= *3.0*
