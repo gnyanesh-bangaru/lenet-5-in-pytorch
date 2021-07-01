@@ -4,6 +4,7 @@ Created on Sun Jun 27 17:09:08 2021
 
 @author: cgnya
 """
+######## Generic Modules ########
 import torch
 from torch import nn
 import torch.optim as optim
@@ -12,6 +13,8 @@ import torchvision
 from torchvision import datasets, models, transforms
 import matplotlib.pyplot as plt
 import numpy as np
+
+######## User-Defined Module ########
 from Model import LeNet
 
 class TrainTest:
