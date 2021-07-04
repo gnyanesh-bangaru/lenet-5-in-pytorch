@@ -4,24 +4,24 @@ Even though this is a paper from 1998, it provides basic fundamentals of a neura
 
 This is a simple implementation of the MNIST dataset on LeNet-5 Architecture using PyTorch(Handwritten Digits).
 
-# Task 
+## Task 
 
 To predict the class labels of the dataset (here, Handwritten Digits Images) on new data with respect to classes accurately.
 
-# Datasets
+## Datasets
 
 MNIST (Handwritten Digits)
 
 The provided code will automatically extract the dataset from the module 'torchvision.datasets'.
 
-# Requirements
+## Requirements
 Python >= *3.0*
 
 PyTorch Version >= *0.4.0*
 
 torchvision >= *0.2.1*
 
-# Architecture
+## Architecture
 Number of Image Channels = 1
 
 Activation = ReLU
@@ -44,11 +44,11 @@ Fully connected to 84 neurons
 
 Fully connected to 10 outputs
 
-# Obtained Output
+## Obtained Output
 ![Figure 2021-06-29 001134](https://user-images.githubusercontent.com/67636257/123688088-42e1dd00-d86f-11eb-8d91-da060c5eb880.png)
 
 ![Screenshot (306)](https://user-images.githubusercontent.com/67636257/123688567-cac7e700-d86f-11eb-94fe-f588246cd7d2.png)
 
-# Obtained Accuracy
+## Obtained Accuracy
 **~99 %**
 
